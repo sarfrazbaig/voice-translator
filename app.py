@@ -5,6 +5,7 @@ import streamlit as st
 import whisper
 from langdetect import detect
 from googletrans import Translator
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
 # Setup
 os.environ["STREAMLIT_WATCH_SUPPRESS"] = "true"
